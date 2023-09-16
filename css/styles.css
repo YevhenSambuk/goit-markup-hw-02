@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -11,18 +12,6 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden ;
-}
 .header-logo-link {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -129,7 +118,18 @@ a {
     background-color: #FFFFFF;
 }
 
-.visually-hidden {}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .skills-list {}
 
@@ -154,7 +154,7 @@ a {
 /** ========== TEAM =========== */
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -167,7 +167,9 @@ a {
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #F4F4FD;
+}
 
 .team-item {}
 
@@ -245,7 +247,7 @@ a {
 }
 
 .footer-logo-color {
-    color: #F4F4FD;
+    color: #f4f4fd;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
