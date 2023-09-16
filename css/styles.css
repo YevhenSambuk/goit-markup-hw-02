@@ -25,7 +25,7 @@ a {
 }
 .header-logo-link {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -34,7 +34,7 @@ a {
 }
 .header-logo-color {
     color: #2E2F42;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -64,9 +64,10 @@ a {
 .header-menu-limk:active {
     color: #404BBF;
 }
-/*.header-address {
+
+.header-address {
     font-style: normal;
-}*/
+}
 
 .header-address-list {}
 
@@ -110,7 +111,8 @@ a {
     cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero-btn:hover, 
+.hero-btn:focus{
     background-color: #404BBF;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -152,7 +154,7 @@ a {
 /** ========== TEAM =========== */
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title {
@@ -233,8 +235,8 @@ a {
 }
 
 .footer-logo-link {
-    color: #4D5AE5;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -244,7 +246,7 @@ a {
 
 .footer-logo-color {
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
