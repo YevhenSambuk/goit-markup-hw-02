@@ -50,7 +50,9 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-menu-limk:active {
+.header-menu-limk:active,
+.header-menu-limk:focus,
+.header-menu-limk:hover {
     color: #404BBF;
 }
 
@@ -249,6 +251,7 @@ a {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-logo-color {
