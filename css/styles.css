@@ -19,6 +19,7 @@ a {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .header-logo-color {
     color: #2E2F42;
@@ -27,6 +28,7 @@ a {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .header {
@@ -168,6 +170,7 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-list {
@@ -212,6 +215,7 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-img {}
@@ -254,6 +258,7 @@ a {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text {
