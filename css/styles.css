@@ -60,7 +60,10 @@ a {
 
 .header-address-list {}
 
-.header-address-item {}
+.header-address-item:focus,
+.header-address-item:hover {
+    color: #404bbf
+ }
 
 .header-adress-limk {
     color: #434455;
@@ -118,7 +121,7 @@ a {
     background-color: #FFFFFF;
 }
 
-.visually-hidden {
+/*.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -129,7 +132,7 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+}*/
 
 .skills-list {}
 
@@ -171,7 +174,9 @@ a {
     background-color: #F4F4FD;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-img {
 }
