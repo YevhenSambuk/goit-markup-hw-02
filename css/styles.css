@@ -60,10 +60,10 @@ a {
 
 .header-address-list {}
 
-.header-address-item:focus,
+/*.header-address-item:focus,
 .header-address-item:hover {
     color: #404bbf
- }
+ }*/
 
 .header-adress-limk {
     color: #434455;
@@ -72,7 +72,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-adress-limk:active {
+.header-adress-limk:active,
+.header-adress-limk:focus,
+.header-adress-limk:hover {
     color: #404BBF;
 }
 /** =========================== */
